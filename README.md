@@ -7,5 +7,3 @@
 - `#e33c08`
 - `#f77014`
 - `#b7aea5`
-
-![This is an image]('./img/Sin titulo.png')
