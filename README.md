@@ -25,3 +25,7 @@ La principal tipografia sera **Roboto**
 ### LOGO:
 
 ![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PIKE.png)
+
+### FIGMA
+
+https://www.figma.com/file/0LBl3uy7EUkas548Hu46aQ/Untitled?node-id=0%3A1&t=ZJcSLvvmJ29ASKF4-1
