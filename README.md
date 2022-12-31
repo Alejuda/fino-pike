@@ -10,7 +10,7 @@ Buscamos atender a un nicho reducido del mercado para personas entre 15 y 30 añ
 
 ### PALETA DE COLORES:
 
-![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/Paleta.png)
+![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PaletaPALETAredondo.png)
 
 - `#221d21`
 - `#433d3d`
@@ -24,7 +24,7 @@ La principal tipografia sera **Roboto**
 
 ### LOGO:
 
-![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PIKE.png)
+![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PIKEgrande.png)
 
 ### FIGMA
 
