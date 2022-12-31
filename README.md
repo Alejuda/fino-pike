@@ -10,7 +10,7 @@ Buscamos atender a un nicho reducido del mercado para personas entre 15 y 30 añ
 
 ### PALETA DE COLORES:
 
-![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PaletaPALETAredondo.png)
+![img](https://raw.githubusercontent.com/Alejuda/fino-pike/main/img/PALETAredondo.png)
 
 - `#221d21`
 - `#433d3d`
