@@ -15,7 +15,7 @@ body{
 .nav{
     background: #433D3D;
     height: 80px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ height: 60px;
 .nav_links{
     list-style: none;
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 .nav_item a{
