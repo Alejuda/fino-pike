@@ -118,6 +118,7 @@ height: 60px;
 .link_icon{
     height: 27px;
     transition: all 200ms;
+    align-self: center;
 }
 
 .link_icon:hover{
