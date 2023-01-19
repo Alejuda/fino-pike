@@ -64,13 +64,25 @@
   padding: 7px 20px;
   background-color: #433d3d;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 16px;
   color: #d4d4d4;
   transition: background-color 100ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section_button:hover {
   background-color: #696060;
 }
 
+.section_text{
+  border-bottom: 2px solid #E33E08;
+}
 
+.see_arrow{
+  height: 10px;
+ 
+  transform: rotate(270deg);
+  margin-left: 10px;
+}
