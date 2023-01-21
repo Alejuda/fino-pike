@@ -30,6 +30,7 @@
     border-radius: 5px;
     font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
 
 }
 
@@ -82,6 +83,7 @@
 .arrow{
     height: 13px;
     margin-left: 20px;
+    cursor: pointer;
 
 }
 
@@ -94,3 +96,49 @@
     gap: 20px;
 }
 
+.imagenes_container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.contenedor_seccion1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.puntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.punto{
+    height: 8px;
+    width: 8px;
+    background-color: #433D3D;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: 10px;
+    transition: transform 100ms;
+    transition: background-color 100ms;
+}
+
+
+.punto_active{
+    transform: scale(1.3);
+    background-color: #E33E08;
+}
+
+.arrow_icon{
+    cursor: pointer;
+    transition: transform 100ms;
+}
+
+.arrow_icon:hover{
+    transform: scale(1.2);
+    opacity: 0.9;
+}
