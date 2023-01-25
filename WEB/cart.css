@@ -1,0 +1,152 @@
+.cart_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.cart_container> h1{
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    color: #433D3D;
+    font-size: 28px;
+    font-weight: 400;
+    border-bottom:solid 2px #433D3D;
+}
+
+.product_container{
+    color: #433D3D;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.product_img{
+    width: 82px;
+    height: 82px;
+}
+
+.product_img> img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product_info{
+    font-size: medium;
+}
+
+.product_info h2{
+    font-weight: 300;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#cant_input{
+    outline: none;
+    height: 35px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #E33E08;
+    color: #433D3D;
+    width: 60px;
+    
+}
+
+#send_btn{
+    outline: none;
+    height: 35px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 60px;
+    border: 2px solid #E33E08;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send_btn > img{
+    height: 23px;
+    width: 23px;
+}
+
+
+.resumen_container{
+    display: flex;
+    flex-direction: column;
+    background-color: #B7AEA5;
+    padding: 10px;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 20px;
+    color: #433D3D;
+    font-weight: 300;
+    gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.border-bottom{
+    border-bottom: 2px solid #433D3D;
+}
+
+.bold{
+    font-weight: 600;
+}
+.total{
+    color: #E33E08;
+}
+
+.discount-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.discount-form input{
+    padding: 5px 20px;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 50px;
+    border: 2px solid  #433D3D;
+   
+    
+}
+
+.discount-form input::placeholder{
+    color: #433D3D;
+}
+
+.discount-form button{
+    height: 30px;
+    padding: 5px 15px;
+    background-color:#433D3D;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #B7AEA5;
+}

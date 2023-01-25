@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="indexMF.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <header class="nav">
+        <div class="nav_container">
+          <img class="nav_logo" src="../img/PIKEnav.png" alt="LOGO" />
+          <ul class="nav_links">
+            <li class="nav_item"><a href="#">HOME</a></li>
+            <li class="nav_item"><a href="#shop">SHOP</a></li>
+            <li class="nav_item"><a href="#">ABOUT US</a></li>
+            <li class="nav_item"><a href="#contacto">CONTACT US</a></li>
+          </ul>
+        </div>
+      </header> -->
+    <header class="nav">
+      <div class="nav_container">
+        <img class="nav_logo" src="../img/PIKEnav.png" alt="LOGO" />
+        <ul class="nav_links">
+          <li class="nav_item">
+            <a href="#"><img src="../img/lupa.svg" alt="" /></a>
+          </li>
+          <li class="nav_item">
+            <a href="#shop"><img src="../img/cart.svg" alt="" /></a>
+          </li>
+          <li class="nav_item">
+            <a href="#"><img src="../img/hamburguesa.svg" alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+
+    <section class="cart_container">
+
+        <h1>Carrito de compras</h2>
+        <div class="product_container">
+            <div class="product_img"><img src="../img/product-detail.png" alt=""></div>
+            <div class="product_info">
+                <h2>Men's T-Shirt</h2>
+                <h2>Size: M</h2>
+            </div>
+            <form class="form">
+                <input id="cant_input" type="number" value="1">
+                <button id="send_btn"><img src="../img/cruz.svg" alt=""></button>
+            </form>
+        </div>
+
+        <div class="product_container">
+            <div class="product_img"><img src="../img/remera2.png" alt=""></div>
+            <div class="product_info">
+                <h2>Men's T-Shirt</h2>
+                <h2>Size: M</h2>
+            </div>
+            <form class="form">
+                <input id="cant_input" type="number" value="1">
+                <button id="send_btn"><img src="../img/cruz.svg" alt=""></button>
+            </form>
+        </div>
+
+
+    </section>
+
+    <section class="resumen_container">
+        <p class="bold border-bottom">RESUMEN DE LA COMPRA</p>
+        <div class="row">
+            <p>Outcast</p>
+            <p>$4500</p>
+        </div>
+        <div class="row">
+            <p>Realist</p>
+            <p>$4200</p>
+        </div>
+        <div class="row border-bottom">
+            <p class="bold">SUB-TOTAL</p>
+            <p class="bold">$8700</p>
+        </div>
+        <form class="discount-form border-bottom">
+            <input type="text" required placeholder="Codigo de descuento">
+            <button class="btn">Apply</button>
+        </form>
+
+        <div class="row">
+            <p class="bold total">TOTAL</p>
+            <p class="bold total">$8700</p>
+        </div>
+
+    </section>
+
+
+
+    <footer id="contacto" class="footer_container">
+      <div class="contact_container">
+        <div class="contact">
+          <h3>CONTACTO</h3>
+          <p class="ubi_texto">
+            <img class="icon" src="../img/location.svg" alt="" />Cordoba,
+            Argentina.
+          </p>
+          <div class="redes">
+            <a href=""
+              ><img class="link_icon" src="../img/insta.svg" alt=""
+            /></a>
+            <a href=""
+              ><img class="link_icon" src="../img/facebook.svg" alt=""
+            /></a>
+            <a href=""
+              ><img class="link_icon" src="../img/twitter.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="newsletter">
+          <h3>NEWSLETTER</h3>
+          <p>Recibi todas las ofertas y lanzamientos a tu email</p>
+          <form class="footer_form">
+            <input id="footer_input" class="input" type="text" placeholder="Email" />
+            <button id="footer_btn" class="send_button">Send</button>
+          </form>
+        </div>
+      </div>
+      <div class="copy">
+        <img class="icon" src="../img/copy.svg" alt="" />
+        <p>2023 IGNACIO, INC. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
