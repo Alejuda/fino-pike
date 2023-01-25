@@ -14,7 +14,7 @@ body{
 .nav{
     background: #433D3D;
     height: 80px;
-    width: 100%;
+    width: 100% !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,6 +30,34 @@ body{
 .nav_logo{
     height: 50px;
 }
+
+.nav_links_desk{
+    list-style: none;
+    display: none;
+    gap: 35px;
+}
+
+.nav_item_desk a{
+    text-decoration: none;
+    color: #B7AEA5;
+    position: relative;
+    font-size: 15px;
+}
+
+.nav_item_desk a::after{
+    content: "";
+    width: 0;
+    background-color: #E33E08;
+    height: 2px;
+    display: block;
+    position: absolute;
+    transition: width 300ms;
+}
+
+.nav_item_desk:hover a::after{
+    width: 100%;
+}
+
 
 .nav_links{
     list-style: none;
@@ -95,6 +123,7 @@ body{
 }
 
 .newsletter{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,7 +150,7 @@ body{
 .footer_form{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
     width: 90%;
@@ -192,3 +221,35 @@ body{
   border-bottom: solid 2px #e33e08;
   width: 95%;
 }
+
+
+/*----------RESPONSIVE--------------*/
+
+@media screen and (min-width: 768px){
+    .nav_links_desk{
+        display: flex;
+    }    
+    .nav_links{display: none;}
+
+    .nav_logo{height: 60px;}
+
+    .contact_container{
+        flex-direction: row;
+        width: 85%;
+        justify-content: center;
+        gap: 100px;
+        align-items: flex-start;
+
+    }
+    .contact{
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+        font-size: large;
+    }
+    .contact h3 {
+        width: 100%;
+    }
+    
+}    
+

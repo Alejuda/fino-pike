@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="indexMF.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="nav">
       <div class="nav_container">
         <img class="nav_logo" src="../img/PIKEnav.png" alt="LOGO" />
+        <ul class="nav_links_desk">
+          <li class="nav_item_desk"><a href="#">HOME</a></li>
+          <li class="nav_item_desk"><a href="#shop">SHOP</a></li>
+          <li class="nav_item_desk"><a href="#contacto">CONTACT US</a></li>
+          <li class="nav_item_desk"><a href="./cart.html">CART</a></li>
+        </ul>
         <ul class="nav_links">
-          <li class="nav_item"><a href="#">HOME</a></li>
-          <li class="nav_item"><a href="#shop">SHOP</a></li>
-          <li class="nav_item"><a href="#">ABOUT US</a></li>
-          <li class="nav_item"><a href="#contacto">CONTACT US</a></li>
+          <li class="nav_item">
+            <a href="#"><img src="../img/lupa.svg" alt="" /></a>
+          </li>
+          <li class="nav_item">
+            <a href="./cart.html"><img src="../img/cart.svg" alt="" /></a>
+          </li>
+          <li class="nav_item">
+            <a href="#"><img src="../img/hamburguesa.svg" alt="" /></a>
+          </li>
         </ul>
       </div>
     </header>
@@ -60,19 +71,28 @@
       <div class="contact_container">
         <div class="contact">
           <h3>CONTACTO</h3>
-          <p class="ubi_texto"><img class="icon" src="../img/location.svg" alt="" />Cordoba, Argentina.</p>
+          <p class="ubi_texto">
+            <img class="icon" src="../img/location.svg" alt="" />Cordoba,
+            Argentina.
+          </p>
           <div class="redes">
-            <a href=""><img class="link_icon" src="../img/insta.svg" alt="" /></a>
-            <a href=""><img class="link_icon" src="../img/facebook.svg" alt="" /></a>
-            <a href=""><img class="link_icon" src="../img/twitter.svg" alt="" /></a>
+            <a href=""
+              ><img class="link_icon" src="../img/insta.svg" alt=""
+            /></a>
+            <a href=""
+              ><img class="link_icon" src="../img/facebook.svg" alt=""
+            /></a>
+            <a href=""
+              ><img class="link_icon" src="../img/twitter.svg" alt=""
+            /></a>
           </div>
         </div>
         <div class="newsletter">
-            <h3>NEWSLETTER</h3>
+          <h3>NEWSLETTER</h3>
           <p>Recibi todas las ofertas y lanzamientos a tu email</p>
-          <form>
-            <input class="input" type="text" placeholder="Email">
-            <button class="send_button">Send</button>
+          <form class="footer_form">
+            <input id="footer_input" class="input" type="text" placeholder="Email" />
+            <button id="footer_btn" class="send_button">Send</button>
           </form>
         </div>
       </div>
