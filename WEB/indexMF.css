@@ -203,6 +203,7 @@ body{
 }
 
 .ubi_texto{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -210,10 +211,15 @@ body{
 }
 
 .redes{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.redes > a{
+    transition: all 100ms;
 }
 
 .contact h3,
@@ -249,6 +255,11 @@ body{
     }
     .contact h3 {
         width: 100%;
+    }
+
+    .redes > a:hover{
+        transform: scale(1.2);
+        opacity: 0.8;
     }
     
 }    
