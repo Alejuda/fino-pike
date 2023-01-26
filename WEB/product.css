@@ -1,15 +1,16 @@
 .description_container{
     width: 100%;
-    margin: 30px auto;
+    margin: 30px auto; /*margin 30 auto*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20pxpx;
+    gap: 20px;
+    max-width: 1000px;
 }
 
 .precio_container{
-    height: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -33,7 +34,6 @@
     font-weight: 500;
     font-size: 17px;
     cursor: pointer;
-
 }
 
 #add_cart{
@@ -103,18 +103,24 @@
     flex-direction: column;
     gap: 20px;
 }
-
-.imagenes_container{
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
 .contenedor_seccion1{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.imagenes_container{
+display: flex;
+width: 100%;
+max-width: 350px;
+justify-content: center;
+align-items: center;
+}
+
+.imagenes_container > img{
+    width: 100%;
 }
 
 .puntos{
@@ -144,6 +150,7 @@ align-items: center;
 .arrow_icon{
     cursor: pointer;
     transition: transform 100ms;
+    display: none;
 }
 
 .arrow_icon:hover{
@@ -157,10 +164,19 @@ align-items: center;
 
 @media screen and (min-width: 768px){
     .description_container{
+        margin: 20px auto;
+        width: auto;
         flex-direction: row;
-        gap: 100px;
+        justify-content: space-around;
+    }
+
+    .precio_container{
+        margin: 20px;
     }
     #add_cart{
         align-items: flex-start;
+    }
+    .arrow_icon{
+        display: flex;
     }
 }
