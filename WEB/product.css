@@ -1,3 +1,12 @@
+:root{
+    --color-1: #433D3D;
+    --color-2:#B7AEA5;
+    --color-3:  #E33E08;
+    --color-4: #d4d4d4;
+}
+
+
+
 .description_container{
     width: 100%;
     margin: 30px auto; /*margin 30 auto*/
@@ -16,7 +25,7 @@
     justify-content: space-around;
     align-items: flex-start;
     gap: 10px;
-    color: #433D3D;
+    color: var(--color-1);
 }
 .datos{
     display: flex;
@@ -27,8 +36,8 @@
     margin-top: 20px;
     outline: none;
     border: none;
-    background-color: #433D3D;
-    color: #d4d4d4;
+    background-color: var(--color-1);
+    color: var(--color-4);
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: 500;
@@ -47,8 +56,8 @@
     border-radius: 5px;
     outline: none;
     background-color: transparent;
-    border: 2px solid #E33E08;
-    color: #433D3D;
+    border: 2px solid var(--color-3);
+    color: var(--color-1);
     height: 50px;
 }
 
@@ -58,8 +67,8 @@
     padding: 10px 10px;
     border-radius: 5px;
     background-color: transparent;
-    border: 2px solid #E33E08;
-    color: #433D3D;
+    border: 2px solid var(--color-3);
+    color: var(--color-1);
     width: 80px;
 }
 
@@ -85,7 +94,7 @@
     align-items: flex-start;
     gap: 30px;
     margin: 50px auto;
-    color: #433D3D;
+    color: var(--color-1);
 }
 
 .arrow{
@@ -98,7 +107,7 @@
 .detail_container{
     padding-top: 10px;
     width: 100%;
-    border-top: 1px solid #433D3D;
+    border-top: 1px solid var(--color-1);
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -133,7 +142,7 @@ align-items: center;
 .punto{
     height: 8px;
     width: 8px;
-    background-color: #433D3D;
+    background-color: var(--color-1);
     border-radius: 50%;
     margin-top: 20px;
     margin: 10px;
@@ -144,7 +153,7 @@ align-items: center;
 
 .punto_active{
     transform: scale(1.3);
-    background-color: #E33E08;
+    background-color: var(--color-3);
 }
 
 .arrow_icon{
