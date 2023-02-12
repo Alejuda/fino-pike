@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.barcode {
+  font-family: "Libre Barcode 39 Extended Text";
+}
+
+.logo_container {
+  width: 200px;
+}
+
+:root {
+  --color-1: #433d3d;
+  --color-2: #b7aea5;
+  --color-3: #e33e08;
+  --color-4: #d4d4d4;
+}
+
+body {
+  background-color: var(--color-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  margin-top: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: var(--color-1);
+  padding: 20px 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-control {
+  color: var(--color-4);
+  padding: 2px;
+  margin: 10px;
+  width: 80%;
+  outline: none;
+  border: none;
+  background-color: var(--color-1);
+  border-bottom: 1px solid var(--color-4);
+}
+
+.btn-control {
+  width: 80%;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  color: var(--color-1);
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px;
+}
+
+.btn-secundario {
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 4px;
+  border: 2px solid var(--color-4);
+  padding: 3px;
+  font-weight: 600;
+}
+
+.link_style {
+  text-decoration: none;
+  color: var(--color-4);
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.input-control::placeholder {
+  color: var(--color-4);
+  font-size: 12px;
+}
+
+#birth::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.link-atras {
+  margin-top: 10px;
+  color: var(--color-1);
+  border-bottom: 1px solid var(--color-1);
+}
